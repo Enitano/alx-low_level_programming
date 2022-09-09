@@ -3,6 +3,7 @@
 /***
  *main - Entry point
  *
+ *Size of variable
  *Return: Always 0 (success)
  */
 
