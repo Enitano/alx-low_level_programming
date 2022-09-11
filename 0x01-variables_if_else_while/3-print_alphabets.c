@@ -9,12 +9,14 @@
 int main(void)
 {
 	char A;
+	char a = tolower(A);
 
 	for (A = 'A'; A <= 'Z'; A++)
-
+	{
 		putchar(A);
-		char a = tolower(A);
 		putchar(a);
+
+	}
 
 
 	putchar('\n');
