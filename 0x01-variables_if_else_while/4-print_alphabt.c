@@ -12,13 +12,16 @@ int main(void)
 	
 	for (A = 'a'; A <= 'z'; A++)
 	{
+
 		if(A = 'e')
 			putchar(A++);
 		if(A = 'q')
 			putchar(A++);
-	}
 		putchar(A);
-		putchar('\n');
+
+	}
+		
+	putchar('\n');
 
 	return (0);
 
