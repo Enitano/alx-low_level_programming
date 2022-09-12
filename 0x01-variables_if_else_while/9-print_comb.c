@@ -15,8 +15,8 @@ int main(void)
 		putchar(A);
 		if (A != 57)
 		{
-			putchar(',');
-			putchar(" ");
+			putchar(", ");
+			putchar(' ');
 		}
 	}
 	putchar('\n');
