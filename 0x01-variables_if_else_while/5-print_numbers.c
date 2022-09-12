@@ -12,9 +12,9 @@ int main(void)
 
 	for (A = 0; A < 10; A++)
 	{
-		putchar(A);
+		printf('%i', A);
 	}
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 
