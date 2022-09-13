@@ -18,8 +18,11 @@ int main(void)
 			{
 				putchar(A);
 				putchar(B);
-				putchar(',');
-				putchar(' ');
+				if (A != 56 || B != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 
 		}
