@@ -13,13 +13,10 @@ int main(void)
 	for (A = 48; A < 58; A++)
 	{
 		putchar(A);
-/**		if (A != 57)
-*		{
-*			
-*
-*
-*		}
-*/		
+		if (A != 57)
+		{
+			putchar(',');
+		}		
 	}
 	putchar('\n');
 
