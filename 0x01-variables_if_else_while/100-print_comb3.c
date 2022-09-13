@@ -14,9 +14,14 @@ int main(void)
 	{
 		for (B = 48; B < 58; B++)
 		{
-			putchar(A);
-			putchar(B);
-			putchar(',');
+			if (B > A)
+			{
+				putchar(A);
+				putchar(B);
+				putchar(',');
+				putchar(' ');
+			}
+
 		}
 	}
 	putchar('\n');
