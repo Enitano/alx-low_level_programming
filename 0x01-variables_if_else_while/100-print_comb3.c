@@ -14,7 +14,8 @@ int main(void)
 	{
 		for (B = 48; B <= 58; B++)
 		{
-			putchar("%d %d\n" A, B);
+			putchar(A);
+			putchar(B);
 		}
 	}
 	putchar('\n');
