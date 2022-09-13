@@ -10,12 +10,13 @@ int main(void)
 {
 	int A, B;
 
-	for (A = 48; A <= 58; A++)
+	for (A = 48; A < 58; A++)
 	{
-		for (B = 48; B <= 58; B++)
+		for (B = 48; B < 58; B++)
 		{
 			putchar(A);
 			putchar(B);
+			putchar(',');
 		}
 	}
 	putchar('\n');
