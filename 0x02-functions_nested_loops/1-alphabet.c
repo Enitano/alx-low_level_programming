@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *main - Print_alphabet in lower case
- *Using my header file
+ *main - Print alphabet in lower case
+ *calling main header file function
  *Return: Always 0 (Success)
  */
 
-void print_alphabet(void)
+void print_alphabet(char)
 {
 	char A;
 
