@@ -8,6 +8,8 @@
 
 int print_last_digit(int a)
 {
+	int i;
+
 	if (a < 0)
 	{
 		a = -a;
