@@ -18,5 +18,4 @@ void print_times_table(int n)
 			printf("%d * %d = %d \n", n, i, n * i);
 		}
 	}
-	printf('\n');
 }
