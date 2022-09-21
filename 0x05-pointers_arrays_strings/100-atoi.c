@@ -16,7 +16,7 @@ int _atoi(char *s)
 	num = 0;
 	sign = 1;
 
-	while (*temp != '\0' && (*temp < '0'; || *temp > 9))
+	while (*temp != '\0' && (*temp < '0' || *temp > 9))
 	{
 		if (*temp == '-')
 			sign *= -1;
@@ -26,7 +26,7 @@ int _atoi(char *s)
 	{
 		do {
 			num = num * 10 + (*temp - '0');
-			temp++
+			temp++;
 		} while (*temp >= '0' && *temp <= '9');
 	}
 	return (num * sign);
