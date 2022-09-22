@@ -4,7 +4,7 @@
  * _strncpy - function that copies a string
  * @src: string to copy
  * @dest: Primary string
- * @n: integer 
+ * @n: integer
  * Return: new dest
  */
 
