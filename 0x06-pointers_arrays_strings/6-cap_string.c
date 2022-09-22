@@ -6,7 +6,7 @@
  * Return: pointer
  */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int symb[14] = {' ', '\t', '\n', ',', ';', '.', '!',
 		'?', '"', '(', ')', '{', '}'};
