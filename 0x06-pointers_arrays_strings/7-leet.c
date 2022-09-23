@@ -2,23 +2,28 @@
 
 /**
  * leet - function that encodes a string
- * @str: string to be encoded
+ * @s: string to be encoded
  * Return: encoded string
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	int index1 = 0, index2;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char *m = "aeotl";
+	char *M = "AEOTL";
+	int x[] = {'4', '3', '0', '7', '1'};
+	int i;
+	char *p = s;
 
-	while (str[index1++])
+	while (*s != '\0')
 	{
-		for (index2 = 0; index2 <= 7, index2++)
+		for (i = 0; i < 5; i++)
 		{
-			if (str[index1] == leet[index2] ||
-			str[index1] - 32 == leet[index2])
-				str[index1] = index2 + '0';
+			if (*s == *(m + i) || *s == *(M + i))
+			{
+				*s = x[i];
+			}
+			s++;
 		}
 	}
-	return (str);
+	return (p);
 }
