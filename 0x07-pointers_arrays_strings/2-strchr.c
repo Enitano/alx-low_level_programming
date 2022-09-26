@@ -2,8 +2,8 @@
 
 /**
  * _strchr - function that locates a character in a string
- * @s:
- * @c:
+ * @s:string to check
+ * @c:character in string
  * Return: always 0
  */
 
