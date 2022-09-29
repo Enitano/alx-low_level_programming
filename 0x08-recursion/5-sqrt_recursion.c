@@ -31,7 +31,6 @@ int _sqrt(int n, int a)
 	else if (n * n == a)
 	{
 		return (n);
-		return (_sqrt(n + 1, a));
 	}
-	return (0);
+	return (_sqrt(n + 1, a));
 }
