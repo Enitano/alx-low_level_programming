@@ -33,4 +33,5 @@ int _sqrt(int n, int a)
 		return (n);
 		return (_sqrt(n + 1, a));
 	}
+	return (0);
 }
