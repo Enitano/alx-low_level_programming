@@ -6,11 +6,11 @@
  * @argc: argument couunt
  * @argv: vector or array of arguments
  * Return: 0
- */
+ *i
 
 int prog_name(int argc, char *argv[])
 {
-	_putchar(argv[0]);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
