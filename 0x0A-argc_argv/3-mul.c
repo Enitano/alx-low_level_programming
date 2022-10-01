@@ -7,7 +7,7 @@
  * Return: 0 success , 1 otherwise
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int index, mul;
 
