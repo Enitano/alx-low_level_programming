@@ -9,15 +9,19 @@
 
 int main(int argc, char **argv)
 {
-	if (argc != 3)
+	int index, mul;
+
+	mul = 1;
+	if (argc < 3)
 	{
-		printf("Error");
+		printf("Error\n");
 
 		return (1);
 	}
-	int mul;
-
-	mul = ((*arg[1]) * (*argv[2]));
+	for (index = 1; index < argc; index++)
+	{
+		mul = mul * atoi(argv[index]);
+	}
 	printf("%d\n", mul);
 
 	return (0);
