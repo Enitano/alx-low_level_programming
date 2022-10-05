@@ -11,7 +11,7 @@ int _strlen(char *a)
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (a[i] != '\0')
 	{
 		i++;
 	}
